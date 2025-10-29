@@ -11,10 +11,10 @@
 [data-theme="light"] {
   --bg: #ffffff;
   --surface: #f8fafc;
-  --text: #0f172a;
-  --muted: #475569;
+  --text: #170f2a;
+  --muted: #514769;
   --border: #e5e7eb;
-  --primary: #0ea5e9;
+  --primary: #0ee999;
   --primary-contrast: #ffffff;
 }
 
