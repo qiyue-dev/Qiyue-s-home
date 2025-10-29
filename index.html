@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>曹琪月 | 个人主页</title>
+  <meta name="description" content="曹琪月的个人主页：简介、项目与联系信息。">
+  <meta name="author" content="曹琪月">
+  <meta property="og:title" content="曹琪月 | 个人主页">
+  <meta property="og:description" content="曹琪月的个人主页：简介、项目与联系信息。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">CQY</a>
+      <nav class="nav">
+        <a href="#about">关于我</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+        <button id="themeToggle" class="icon-btn" aria-label="切换深浅色">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <h1 class="title">你好，我是 <span class="accent">曹琪月</span></h1>
+      <p class="subtitle">热爱产品与技术，专注于创造优雅、可用、以用户为中心的体验。</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">联系我</a>
+        <a class="btn" href="#projects">查看项目</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>关于我</h2>
+      <p>
+        这里可以写一段简短自我介绍：背景、技能与兴趣。你也可以补充目前关注的领域，
+        比如 Web 前端、产品设计、数据可视化或 AI 辅助创作等。
+      </p>
+      <ul class="tags">
+        <li>前端开发</li>
+        <li>产品思维</li>
+        <li>用户体验</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>项目</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>项目 A</h3>
+          <p>一句话介绍你的项目亮点与价值。可放 GitHub 链接或在线预览。</p>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small" href="#" target="_blank" rel="noopener">预览</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>项目 B</h3>
+          <p>一句话介绍你的项目亮点与价值。可放 GitHub 链接或在线预览。</p>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small" href="#" target="_blank" rel="noopener">预览</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>项目 C</h3>
+          <p>一句话介绍你的项目亮点与价值。可放 GitHub 链接或在线预览。</p>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn small" href="#" target="_blank" rel="noopener">预览</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>联系我</h2>
+      <p>欢迎通过以下方式联系我：</p>
+      <ul class="contact-list">
+        <li>邮箱：<a href="mailto:yourname@example.com">yourname@example.com</a></li>
+        <li>GitHub：<a href="https://github.com/your-github" target="_blank" rel="noopener">your-github</a></li>
+        <li>微信：可以在此处补充你的微信号或二维码链接</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> 曹琪月</span>
+      <a href="#home" class="back-to-top">返回顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
+</body>
+</html>
+
+
